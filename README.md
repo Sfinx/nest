@@ -2,7 +2,7 @@
 
 Dumps live video/audio streams to video-dump.h264/audio-dump.wav files
 
-Speex audio is supported. Additionally app dumps Nest button press event to stdout.
+Speex audio is supported. Additionally app dumps Nest button press event to stdout (please take in account 15 seconds of GCM cold startup latency)
 
 ### Prerequisites
 
