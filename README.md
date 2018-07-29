@@ -1,7 +1,9 @@
-### Nest Hello camera media dumper for Linux (Ubuntu 16.04/18.04)
+### Nest Hello camera media dumper for Linux (Ubuntu 18.04)
 
 Dumps live video/audio streams to video-dump.h264/audio-dump.wav files
 
+Speex audio is supported. Additionally app dumps Nest button press event to stdout.
+
 ### Prerequisites
 
-apt install libidn2-0 speex libtomcrypt0
+apt install libidn2-0 speex libtomcrypt0 libossp-uuid16 libcurl4
